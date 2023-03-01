@@ -1,0 +1,67 @@
+/* reset */
+*,
+html,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color parameters */
+:root {
+    --dark-blue-color: #1f2937;
+    --grey-1-color: #f9faf8;
+    --grey-2-color: #e5e7eb;
+    --blue-1-color: #3882f5;
+
+}
+
+/* general */
+a {
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+section:first-child {
+    width: 30%;
+    background: var(--grey-1-color);
+}
+
+section:nth-child(2) {
+    flex: 1 ;
+    background: var(--grey-2-color);
+}
+
+
+/* font parameter */
+:root {
+    --main-font: 'roboto', helvetica, sans-serif;
+    font-family: var(--main-font);
+}
+
+/* SignUp section */
+section.signUpForm {
+
+}
+
+section.signUpForm form {
+    background: var(--blue-1-color);
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
