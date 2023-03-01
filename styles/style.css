@@ -35,9 +35,12 @@ main{
 }
 
 section:first-child {
-    width: 35%;
+    width: 40%;
     z-index: 1;
-    background-color: var(--white-color);
+    background-image: url(../images/leaves.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section:nth-child(2) {
@@ -60,6 +63,8 @@ h1 {
 p {
     font-size: 18px;
 }
+
+/* inputs and labels */
 
 input {
     font-size: 20px;
