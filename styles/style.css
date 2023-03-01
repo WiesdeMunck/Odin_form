@@ -25,10 +25,6 @@ li {
     list-style-type: none;
 }
 
-body {
-    
-}
-
 main{
     display: flex;
     height: 100vh;
@@ -61,7 +57,7 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* inputs and labels */
@@ -116,6 +112,10 @@ section.signUpForm button {
     font-size: 18px;
     font-weight: 400;
     border-radius: 6px;
+    margin-top: 20px;
+}
+
+section.signUpForm p+p {
     margin-top: 20px;
 }
 
